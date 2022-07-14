@@ -1,0 +1,102 @@
+.myControl{
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display:none;
+    background: rgba(0,0,0, 0.5);
+    
+}
+
+.myControlContent{
+    padding:25px;
+    background: purple;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-width:30vw;
+}
+
+.myControl.active{
+    display:flex;
+    
+
+}
+
+h1.racketa{
+    padding-top:3%;
+    color:red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.poh {
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    min-width: 100Vw;
+    min-height: 40vw;
+    
+}
+
+.knop{
+    
+    width: 10%;
+    height: 50px;
+}
+
+.osn{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+.myControl.loader {
+    animation-duration: 0.7s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: -30%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .myControl.close {
+    animation-duration: 0.7s;
+    animation-name: slideina;
+    animation-iteration-count: 1;
+}
+@keyframes slideina {
+    from {
+      opacity:0%;
+    }
+  
+    to {
+      opacity:100%;
+    }
+  }
+  .hknop {
+    margin-left:auto;
+    background: rgb(130 0 251);
+    border-radius: 12px;
+    width: 139px;
+    border-color: rgb(130 0 251);
+    transition: margin-bottom 0.4s .1s;
+}
+
+.hknop:hover{
+  background:black;
+  margin-bottom:10px;
+}
