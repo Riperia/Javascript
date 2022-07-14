@@ -9,7 +9,7 @@ const About= () => {
         <div>
       <Forma></Forma>
       <div className={cl.bar}>
-sssssss
+      Loshara
       </div>
         </div>
     );
