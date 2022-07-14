@@ -17,7 +17,7 @@ function Control() {
 
             </Modalochka>
 
-            <h1 className={cl.racketa}>Фраерам салалейкум</h1>
+            <h1 className={cl.racketa}>Фраерам 33</h1>
             <div className={cl.poh}>
                 <button className={cl.knop} onClick={zapusk}>Модалка</button>
             </div>
